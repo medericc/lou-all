@@ -1,6 +1,6 @@
 {
-  "name": "Jade App",
-  "short_name": "Jade App",
+  "name": "Lou App",
+  "short_name": "Lou App",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",

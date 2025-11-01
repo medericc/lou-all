@@ -4,11 +4,11 @@ import Head from 'next/head';
 import ServiceWorkerRegister from './ServiceWorkerRegister';
 
 export const metadata = {
-  title: "Jade Célérier - Application",
-  description: "Statistiques en direct et calendrier de Jade",
+  title: "Louann Battiston - Application",
+  description: "Statistiques en direct et calendrier de Louann",
    manifest: "/manifest.json",
   appleWebApp: {
-    title: "Jade App",
+    title: "Louann App",
   },
   icons: {
     icon: "/favicon.ico",
@@ -16,25 +16,25 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Jade Célérier - Application",
-    description: "Statistiques en direct et calendrier de Jade",
-    url: "https://jade-application.vercel.app/",
-    siteName: "Jade Celerier Application",
+    title: "Louann Battiston - Application",
+    description: "Statistiques en direct et calendrier de Louann",
+    url: "https://louann-application.vercel.app/",
+    siteName: "Louann Celerier Application",
     images: [
       {
-        url: "https://jade-application.vercel.app/preview.jpg",
+        url: "https://louann-application.vercel.app/preview.jpg",
         width: 1200,
         height: 630,
-        alt: "Jade Célérier - Application",
+        alt: "Louann Battiston - Application",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jade Célérier - Application",
-    description: "Statistiques en direct et calendrier de Jade",
-    images: ["https://jade-calendrier.vercel.app/preview.jpg"],
+    title: "Louann Battiston - Application",
+    description: "Statistiques en direct et calendrier de louann",
+    images: ["https://Louann-calendrier.vercel.app/preview.jpg"],
   },
 };
 
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
          
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="apple-mobile-web-app-title" content="Jade Application" />
+        <meta name="apple-mobile-web-app-title" content="Louann Application" />
         <meta name="theme-color" content="#1e40af" />
       </Head>
 
